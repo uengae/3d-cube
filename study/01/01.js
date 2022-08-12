@@ -1,4 +1,4 @@
-import * as THREE from '../build/three.module.js';
+import * as THREE from '../../build/three.module.js';
 
 
 class app {
@@ -65,6 +65,7 @@ class app {
         this._cube.rotation.x = time;
         this._cube.rotation.y = time;
         }
+
 }
 
 window.onload = function(){
